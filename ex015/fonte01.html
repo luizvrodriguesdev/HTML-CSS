@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        /* Safe combination de font family. 3 opçoes sendo a última uma genérica para ter maior aceitação em todos tipos de dispositivos 
+        
+         **Medidas Absolutas
+         cm, mm, in, px, pt, pc
+
+         **Medidas Relativas
+         em, ex, rem, vw, vh, %
+         
+         Absoluta recomendada: px
+         Relativa recomendada: em
+         
+         16 px geralmente = 1em 
+         16 px tamanho geralmente padrão da fonte
+         
+         ** Shorhand font
+         font-style -> font-weight -> font-size -> font-family 
+
+         font: italic bolder 1.2em `Work Sans`, sans-seriff;
+
+         */
+
+        
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body{ 
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        main{
+            background-color: white;
+            width:800px;
+            margin: auto;
+        }
+
+        h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(0, 137, 155);
+            border-radius: 18px;
+            text-align: center;
+            margin: auto;
+        }
+
+        p {
+            font: italic bolder 1.2em 'Work Sans', sans-seriff;
+            text-decoration: underline;
+            text-align: justify;
+        }
+        
+
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1>Trabalhando com fontes</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, assumenda. Doloremque, in, exercitationem ea maxime nam sapiente esse quidem ipsa quam libero corporis? Id nostrum voluptas aliquid ex, quod sunt! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione et repellendus earum voluptatibus voluptate culpa cum distinctio officiis. Consequatur quidem optio voluptas iste. Pariatur recusandae qui sapiente iste obcaecati cupiditate?</p>
+        <h2>Subtítulo do exercício</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam mollitia vel tempora et. Veritatis minus unde nam velit mollitia culpa, impedit quod odit a vero quas magni sed laudantium commodi.</p>
+    </main>
+</body>
+</html>

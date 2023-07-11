@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(173, 173, 173);
+            padding: 5px;
+            box-shadow: 3px 4px 4px 2px rgba(0, 0, 0, 0.568);
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: inset 2px 2px 8px 3px rgba(0, 0, 0, 0.459);
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(167, 167, 167);
+        }
+        section {
+            border-color: white;
+            border-style: solid;
+        }
+
+        #assuntos {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>O Globo </h1>
+        <nav>
+            <a href="#">Menu</a>
+            <a href="#">Política</a>
+            <a href="#">Esportes</a>
+            <a href="#">Internacional</a>
+            <a href="#">Tecnologia</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Nova atriz que está fazendo sucesso</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, porro pariatur dolorem atque ipsa eaque facere tenetur placeat, temporibus numquam reprehenderit culpa dicta, corrupti dolore. Molestiae quos laudantium quis fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, laudantium consequatur eveniet rem hic iste, id itaque a, nemo numquam ea? Provident, fuga. Mollitia laudantium, consectetur explicabo sit nobis debitis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maiores repellendus a fuga earum dolores vitae aliquam odio voluptate dolorem perspiciatis minima placeat necessitatibus, repellat omnis atque inventore voluptatum? Aliquid.</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, optio. Nostrum odit dolor animi vero quae doloremque nobis minus, et magnam atque iusto qui! Quia nisi aperiam optio consequuntur perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus illo maxime voluptatem corporis cumque quasi optio. Explicabo veritatis veniam maiores eum fugit error dolore vel harum rerum. Sint, perspiciatis. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, fugiat qui ipsam alias soluta quae officia delectus sunt? Sit iusto, dolore ad repudiandae eos consequuntur necessitatibus iste vero optio officiis.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Luiz</p>
+    </footer>
+    
+</body>
+</html>
